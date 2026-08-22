@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ace-writing.com/sitemap.xml
