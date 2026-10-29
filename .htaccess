@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect legacy directories
+RewriteRule ^books/.*$ / [R=301,L]
+RewriteRule ^authors/.*$ / [R=301,L]
+RewriteRule ^author/.*$ / [R=301,L]
+RewriteRule ^series/.*$ / [R=301,L]
+RewriteRule ^fiction/.*$ / [R=301,L]
+
+# Redirect legacy files
+RewriteRule ^books\.html$ / [R=301,L]
+RewriteRule ^about\.html$ / [R=301,L]
+RewriteRule ^about-author\.html$ / [R=301,L]
+RewriteRule ^authors\.html$ / [R=301,L]
+RewriteRule ^fiction\.html$ / [R=301,L]
+RewriteRule ^ozzie-michaels\.html$ / [R=301,L]
+RewriteRule ^addison-port\.html$ / [R=301,L]
+RewriteRule ^titus-marcellus\.html$ / [R=301,L]
+RewriteRule ^bookwiz\.html$ / [R=301,L]
+RewriteRule ^newsletter\.html$ / [R=301,L]
+RewriteRule ^contact\.html$ / [R=301,L]
+RewriteRule ^press\.html$ / [R=301,L]
